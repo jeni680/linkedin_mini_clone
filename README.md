@@ -38,10 +38,6 @@ linkedin-mini-clone/
 │ └── index.css
 └── README.md
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🛠️ Tech Stack
@@ -70,53 +66,31 @@ JWT_SECRET=yourSuperSecretJWTKey
 PORT=5000
 🧪 Getting Started
 1. Clone the repository
-bash
-Copy
-Edit
+
 git clone https://github.com/<your-username>/linkedin-mini-clone.git
 cd linkedin-mini-clone
 2. Install backend dependencies
-bash
-Copy
-Edit
+
 cd backend
 npm install
 Start the backend server:
-
-bash
-Copy
-Edit
 npm start
 3. Install frontend dependencies
-bash
-Copy
-Edit
 cd ../frontend
 npm install
 Start the React development server:
-
-bash
-Copy
-Edit
 npm run dev
 🔐 Authentication Flow
 Upon login/signup, a JWT token is generated and stored in localStorage.
 
 All protected API requests include this token in the Authorization header as:
 
-makefile
-Copy
-Edit
 Authorization: Bearer <token>
 Backend middleware (verifyToken) authenticates and decodes the token to allow access.
 
 ✨ Future Improvements
 ✅ Like & Comment features for posts
-
 🖼️ Image upload for posts (using Cloudinary or local uploads)
-
 🔔 Notification system
-
 💬 Messaging between users
-
 🌍 Search and filter user profiles/posts
