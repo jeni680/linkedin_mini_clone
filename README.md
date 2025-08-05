@@ -37,7 +37,6 @@ linkedin-mini-clone/
 │ ├── main.jsx
 │ └── index.css
 └── README.md
-
 ---
 
 ## 🛠️ Tech Stack
@@ -94,3 +93,4 @@ Backend middleware (verifyToken) authenticates and decodes the token to allow ac
 🔔 Notification system
 💬 Messaging between users
 🌍 Search and filter user profiles/posts
+
